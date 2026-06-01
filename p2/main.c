@@ -16,8 +16,9 @@ int main(void) {
         scanf("%d",&arr_2_num);
         *q = arr_2_num;
     
-    }for (int i=0; i>=0; i++) {
-        for (int j= N-1; j>= 0; j--) {
-            if (i+j == N-1) {
-            sum = arr_1[i] + arr_2[j];
-            printf(" %d", sum);
+    } for (p= arr_1, q= arr_2 + N-1; p<arr_1+N; p++, q--){
+        sum= *p+ *q;
+        printf(" %d", sum);
+    }   
+        return 0;
+}
