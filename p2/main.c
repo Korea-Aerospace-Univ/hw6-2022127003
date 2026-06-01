@@ -4,8 +4,8 @@ int main(void) {
     int N;
     int sum = 0;
     int arr_1_num, arr_2_num;
-    int arr_1[]={};
-    int arr_2[]={};
+    int arr_1[20]={};
+    int arr_2[20]={};
     int *p= nullptr;
     int *q= nullptr;
     scanf("%d", &N);
