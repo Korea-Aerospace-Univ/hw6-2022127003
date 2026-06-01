@@ -18,7 +18,7 @@ int main(void) {
     
     } for (p= arr_1, q= arr_2 + N-1; p<arr_1+N; p++, q--){
         sum= *p+ *q;
-        printf(" %d", sum);
+    printf(" %d", sum);
     }   
         return 0;
 }
