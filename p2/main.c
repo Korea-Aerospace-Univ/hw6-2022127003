@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+    int N;
+    int sum = 0;
+    int arr_1_num, arr_2_num;
+    int arr_1[]={};
+    int arr_2[]={};
+    int *p= nullptr;
+    int *q= nullptr;
+    scanf("%d", &N);
+    for(p=arr_1; p<arr_1+N; p++){
+        scanf("%d",&arr_1_num);
+        *p = arr_1_num;
+    }for(q=arr_2; q<arr_2+N; q++){
+        scanf("%d",&arr_2_num);
+        *q = arr_2_num;
+    
+    }for (int i=0; i>=0; i++) {
+        for (int j= N-1; j>= 0; j--) {
+            if (i+j == N-1) {
+            sum = arr_1[i] + arr_2[j];
+            printf(" %d", sum);
