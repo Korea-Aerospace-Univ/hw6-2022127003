@@ -9,8 +9,8 @@ int main(void) {
     int many = 0;
     int count = 0;
     for (p = arr; p < arr + 10; p++){
-        scanf(" %c", &Eng);
-        *p = Eng;
+        scanf(" %c", p);
+
     }
     result = arr[0];
     for (p = arr; p < arr + 10; p++) {
